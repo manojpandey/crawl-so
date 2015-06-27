@@ -1,0 +1,184 @@
+2015-06-27 19:24:36 [scrapy] INFO: Scrapy 1.0.0 started (bot: stack)
+2015-06-27 19:24:36 [scrapy] INFO: Optional features available: ssl, http11
+2015-06-27 19:24:36 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'stack.spiders', 'SPIDER_MODULES': ['stack.spiders'], 'BOT_NAME': 'stack'}
+2015-06-27 19:24:36 [py.warnings] WARNING: :0: UserWarning: You do not have a working installation of the service_identity module: 'No module named service_identity'.  Please install it from <https://pypi.python.org/pypi/service_identity> and make sure all of its dependencies are satisfied.  Without the service_identity module and a recent enough pyOpenSSL to support it, Twisted can perform only rudimentary TLS client hostname verification.  Many valid certificate/hostname mappings may be rejected.
+
+2015-06-27 19:24:36 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-06-27 19:24:36 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-06-27 19:24:36 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-06-27 19:24:36 [scrapy] INFO: Enabled item pipelines: 
+2015-06-27 19:24:36 [scrapy] INFO: Spider opened
+2015-06-27 19:24:36 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-06-27 19:24:36 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-06-27 19:24:37 [scrapy] DEBUG: Crawled (200) <GET http://stackoverflow.com/questions?pagesize=50&sort=newest> (referer: None)
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'need help while tesing println and fmt.println of golang',
+ 'url': u'/questions/31090022/need-help-while-tesing-println-and-fmt-println-of-golang'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How do I get emacs to reconise my python 3 virtual environment',
+ 'url': u'/questions/31090021/how-do-i-get-emacs-to-reconise-my-python-3-virtual-environment'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How to change the font of Actionbar menu item text',
+ 'url': u'/questions/31090018/how-to-change-the-font-of-actionbar-menu-item-text'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How can I break an array in shell script?',
+ 'url': u'/questions/31090012/how-can-i-break-an-array-in-shell-script'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Extend DbSet add method',
+ 'url': u'/questions/31090011/extend-dbset-add-method'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Catch exception from required file',
+ 'url': u'/questions/31090009/catch-exception-from-required-file'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u"\u201c} expected\u201d where it shouldn't",
+ 'url': u'/questions/31090008/expected-where-it-shouldnt'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Inheriting QListWidgetItem',
+ 'url': u'/questions/31090007/inheriting-qlistwidgetitem'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Upgrading WP8 to Silverlight WP8.1, payload contains two or more files with same destination',
+ 'url': u'/questions/31090004/upgrading-wp8-to-silverlight-wp8-1-payload-contains-two-or-more-files-with-same'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Change second Placeholder with C#',
+ 'url': u'/questions/31090002/change-second-placeholder-with-c-sharp'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'App unresponsive in stead of crashing',
+ 'url': u'/questions/31090001/app-unresponsive-in-stead-of-crashing'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Playing Sound - java',
+ 'url': u'/questions/31089999/playing-sound-java'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Convert Free space in to percentage Windows C++',
+ 'url': u'/questions/31089998/convert-free-space-in-to-percentage-windows-c'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Place small UIImage in large UIButton',
+ 'url': u'/questions/31089996/place-small-uiimage-in-large-uibutton'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How do i unit test the following lock and multi-threaded code',
+ 'url': u'/questions/31089995/how-do-i-unit-test-the-following-lock-and-multi-threaded-code'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Android.jar is missing in Package explorer in all my projects',
+ 'url': u'/questions/31089991/android-jar-is-missing-in-package-explorer-in-all-my-projects'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Perfrom multiple tasks at once iOS',
+ 'url': u'/questions/31089990/perfrom-multiple-tasks-at-once-ios'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Add a class to an icon after click input radio',
+ 'url': u'/questions/31089988/add-a-class-to-an-icon-after-click-input-radio'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'VB.NET with MS SQL - Login Form Error',
+ 'url': u'/questions/31089986/vb-net-with-ms-sql-login-form-error'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How to Get Main output into Common() method in java?',
+ 'url': u'/questions/31089984/how-to-get-main-output-into-common-method-in-java'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Searching a menu like this',
+ 'url': u'/questions/31089983/searching-a-menu-like-this'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Find the nth child under svg using xpath',
+ 'url': u'/questions/31089982/find-the-nth-child-under-svg-using-xpath'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'how to zip two different file extension',
+ 'url': u'/questions/31089981/how-to-zip-two-different-file-extension'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'what does value of t test mean?',
+ 'url': u'/questions/31089980/what-does-value-of-t-test-mean'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'what is the difference between python in /usr/local/bin/python and /usr/bin/python?',
+ 'url': u'/questions/31089978/what-is-the-difference-between-python-in-usr-local-bin-python-and-usr-bin-pyth'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How can you change the highlight color of a NSTextField within a NSTableCellView?',
+ 'url': u'/questions/31089976/how-can-you-change-the-highlight-color-of-a-nstextfield-within-a-nstablecellview'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Custom text view adapter not working on list view',
+ 'url': u'/questions/31089969/custom-text-view-adapter-not-working-on-list-view'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Crossfading with NAudio',
+ 'url': u'/questions/31089966/crossfading-with-naudio'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Is there a different way to write the following line?',
+ 'url': u'/questions/31089964/is-there-a-different-way-to-write-the-following-line'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How can we underline n-th letter in angular ng-repeat?',
+ 'url': u'/questions/31089962/how-can-we-underline-n-th-letter-in-angular-ng-repeat'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Specific row order',
+ 'url': u'/questions/31089961/specific-row-order'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How to write a cron job for a python method',
+ 'url': u'/questions/31089956/how-to-write-a-cron-job-for-a-python-method'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Signal assignment in VHDL process',
+ 'url': u'/questions/31089955/signal-assignment-in-vhdl-process'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Using rand()/(RAND_MAX +1)',
+ 'url': u'/questions/31089952/using-rand-rand-max-1'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Can someone explain me this function for creating grid with JS/jQuery?',
+ 'url': u'/questions/31089948/can-someone-explain-me-this-function-for-creating-grid-with-js-jquery'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Javascript check if the time is between 8:30am and 6:30pm',
+ 'url': u'/questions/31089944/javascript-check-if-the-time-is-between-830am-and-630pm'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Writing a For Loop to Evaluate a Factorial',
+ 'url': u'/questions/31089943/writing-a-for-loop-to-evaluate-a-factorial'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Insert all HTML in PHP',
+ 'url': u'/questions/31089940/insert-all-html-in-php'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Get current route name?',
+ 'url': u'/questions/31089939/get-current-route-name'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How to change and format date with C',
+ 'url': u'/questions/31089937/how-to-change-and-format-date-with-c'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Mouse Hover Action-Unable to click hidden Link',
+ 'url': u'/questions/31089935/mouse-hover-action-unable-to-click-hidden-link'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Array generated by a method',
+ 'url': u'/questions/31089931/array-generated-by-a-method'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'How can stop Homebrew installing Postgres as root?',
+ 'url': u'/questions/31089927/how-can-stop-homebrew-installing-postgres-as-root'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Scope issues in Android using Retrofit',
+ 'url': u'/questions/31089925/scope-issues-in-android-using-retrofit'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'dart indirect function references',
+ 'url': u'/questions/31089922/dart-indirect-function-references'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Strict standards vs fatal error / concrete extension vs abstract implementation',
+ 'url': u'/questions/31089921/strict-standards-vs-fatal-error-concrete-extension-vs-abstract-implementation'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Fisher-Yates Algorithm Explanation?',
+ 'url': u'/questions/31089918/fisher-yates-algorithm-explanation'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Android - Facebook MessageDialog callback not working',
+ 'url': u'/questions/31089917/android-facebook-messagedialog-callback-not-working'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Bash script result',
+ 'url': u'/questions/31089914/bash-script-result'}
+2015-06-27 19:24:37 [scrapy] DEBUG: Scraped from <200 http://stackoverflow.com/questions?pagesize=50&sort=newest>
+{'title': u'Change Chrome extension tab title',
+ 'url': u'/questions/31089911/change-chrome-extension-tab-title'}
+2015-06-27 19:24:38 [scrapy] INFO: Closing spider (finished)
+2015-06-27 19:24:38 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 248,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 27553,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 6, 27, 14, 54, 38, 1378),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 52,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2015, 6, 27, 14, 54, 36, 918311)}
+2015-06-27 19:24:38 [scrapy] INFO: Spider closed (finished)
