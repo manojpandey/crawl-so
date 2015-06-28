@@ -10,7 +10,7 @@
 	
 	- To pipe the contents of crawled response to a file:
 
-	`scrapy crawl stack 2> crawled.txt`
+	`scrapy crawl stack_crawler 2> crawled.txt`
 
 	- To save the JSON response in another file:
 	
