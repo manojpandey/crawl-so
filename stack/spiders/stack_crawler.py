@@ -11,7 +11,7 @@ class StackCrawlerSpider(CrawlSpider):
 
     # start_urls = ['http://www.stackoverflow.com/']
     start_urls = ['http://stackoverflow.com/questions?pagesize=50&sort=votes']
-
+    
     # rules = (
     #     Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     # )
